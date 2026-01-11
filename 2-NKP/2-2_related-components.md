@@ -1,4 +1,4 @@
-# 前提となるNutanix製品
+# 2-2. 前提となるNutanix製品
 
 ## Prism Central
 NKPがAHV上のKubernetesクラスタのライフサイクルを管理する場合、Prism Centralと連携します。

@@ -1,4 +1,4 @@
-# 前提となるNutanix製品
+# 2-2. 前提となるNutanix製品
 
 ## Prism Element
 

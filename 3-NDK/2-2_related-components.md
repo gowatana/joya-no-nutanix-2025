@@ -1,4 +1,4 @@
-# 前提となるNutanix製品
+# 2-2. 前提となるNutanix製品
 
 ## Nutanix Kubernetes Platform
 NDKの主なインストール先。ただし、ほかにもEKSとOpenShiftに対応している。
