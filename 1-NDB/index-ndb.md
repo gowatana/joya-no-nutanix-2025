@@ -27,22 +27,33 @@
     2. 基本設定
     3. 利用開始
 
-6. NDBの操作 [^1]
+6. NDBの構成要素
+    1. ネットワーク
+    2. プロファイル
+    3. タイムマシン
+
+7. NDBの操作 [^1]
     1. DBのプロビジョニング（PostgreSQL）
     2. スナップショット取得
     3. クローンDBの作成
     4. DBのリストア
     5. クローンDBのリフレッシュ
-    6. Software Profile の作成
+    6. Software Profile の作成 
 
-7. NDBの利用（基本編）
+8. NDBでのソフトウェア アップデート
+    1. NDB Serverのアップデート
+    2. DBサーバー仮想マシンのOSアップデート
+    3. DBMSのアップデート
+
+9. NDBのDBプロビジョニング（基本編）
     1. DBのプロビジョニング（Oracle）
     2. DBのプロビジョニング（MS SQL）
     3. DBのプロビジョニング（MongoDB）
     4. DBのプロビジョニング（MySQL）
 
-8. NDBの利用（応用編）
+10. NDBの利用（応用編）
     1. DBのプロビジョニング（Oracle RAC）
     2. ベクトルDBの提供
+    3. NDB Operator
 
 [^1]: PostgreSQLを使用します。
