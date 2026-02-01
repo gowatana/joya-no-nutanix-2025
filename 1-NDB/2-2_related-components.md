@@ -7,9 +7,13 @@ NDBでは、DBサーバーの仮想マシンやProtection Domainを使用して�
 ## Prism Central
 NDB Serverはディスク イメージからデプロイできますが、Prism Centralのマーケット プレイスでのデプロイも可能です。（ただしバージョンは古めで、複数回のアップデートが必要）
 
+ちなみに、Nutanix Objectsとの連携などのために、NDBにPrism Centralを登録することがありますが、これはCLIでの作業となります。
+
 ## Nutanix Volumes Storage
 
 データベースやトランザクション ログのストレージとして、Nutanix VolumesによるiSCSIブロック デバイスを使用します。
 そのため、Prism Elementでは、NDB Serverと連携する前にData Services IPアドレスを設定しておきます。
 
 # 参考ドキュメント
+
+https://portal.nutanix.com/page/documents/details?targetId=Nutanix-NDB-User-Guide-v2_9:top-ndb-pc-register-cli-t.html
