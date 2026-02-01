@@ -77,6 +77,7 @@ NDB で DB のクローンやバックアップ / リストアを実施するた
 
 ## Log Catch-up Operation
 NDB Server が、NDB で管理する DB サーバから、DB のトランザクション ログを定期的にキャッチアップします。NDB Time Machine での PIT リカバリなどで利用します。
+
 ## SLAs
 NDB の Time Machine を利用するうえでの、スナップショットの取得間隔やトランザクション ログの保持期限を設定する設定です。
 
