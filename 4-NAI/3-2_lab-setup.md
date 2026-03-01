@@ -6,5 +6,8 @@ NAIのシステム要件では、CPU/メモリが大容量必要であり、GPU�
 
 NAI（nai-core）自体はあまり多くのリソースを必要としませんが、前提となるNKP Pro/Ultimateのリソース要件が大きいため、結局のところ、リソース割り当ての大きなKubernetesクラスタが必要となります。
 
+NKPでNAIを使用する場合、NAIの用途から、管理クラスタではなくワークロード クラスタにインストールするのが一般的です。ただし小規模な環境やラボ環境などであれば、管理クラスタにインストールしても使用できます。
+
+
 # 参考ドキュメント
 https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Enterprise-AI-v2_5:top-nai-requirements-c.html
