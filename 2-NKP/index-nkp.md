@@ -30,11 +30,11 @@
 6. NKPの操作
     1. Nutanix Image Builder
     2. 管理クラスタ
-        管理クラスタの作成
-        管理クラスタの特徴
+       1.  管理クラスタの作成
+       2. 管理クラスタの特徴
     3. NKPクラスタ（ワークロード クラスタ）
-        NKPクラスタの作成
-        NKPクラスタの特徴
+       1. NKPクラスタの作成
+       2. NKPクラスタの特徴
     4. ワークスペースの作成
     5. プロジェクトの作成
     6. アプリのインストール
@@ -44,3 +44,5 @@
     1. Cluster APIとCAPX
     2. Nutanix Cloud Controller Manager（CCM）
     3. Nutanix CSI Driver
+    4. Nutanix COSI Driver
+    5. Cluster API Runtime Extensions - Nutanix
