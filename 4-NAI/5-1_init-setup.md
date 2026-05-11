@@ -16,10 +16,11 @@ NAIのインストールは、下記の方式があります。ここでは、He
 
 HelmによるNAIのインストールは、つぎの手順となります。
 
-1. Nutanix Docker Hub トークンの入手
+1. Nutanix Docker Hub トークンの入手（Nutanix Support & Insight Portal から）
 2. Nutanix Helm Repo の登録
 3. nai-core のインストール
 
+NAIのパラメータは、Helmのvalues.yamlファイルの編集で調整できます。nai-coreのHelm Chartには、Nutanix Provider（AHV）だけでなく、EKSなどに対応したvalues.yamlも用意されています。
 
 # 参考ドキュメント
 https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Enterprise-AI-v2_5:top-NAI-on-NKP-c.html
