@@ -24,22 +24,21 @@
 
 5. 展開までの流れ
     1. 初期展開
-    2. 基本設定
+    2. 基本設定（StorageClusterの作成）
     3. 利用開始
 
 6. NDKのKubernetesカスタム リソース  
-    1. カスタムリソース
+    1. NDKのカスタムリソース
 
 7. NDKの利用
-    1. StorageClusterの作成
-    2. Applicationの作成
-    3. ApplicationSnapshotの取得
-    4. ASのリストア
-    5. AppProtectionPlanの作成
-    6. ReplicationTargetの設定
-    7. レプリケーションの実行
-    8. レプリケーション先からのリストア
-    9. Cross-Namespaceリストア
+    1. Applicationの作成
+    2. ApplicationSnapshotの取得
+    3. ApplicationSnapshotのリストア
+    4. AppProtectionPlanの作成
+    5. ReplicationTargetの設定
+    6. レプリケーションの実行
+    7. レプリケーション先からのリストア
+    8. Cross-Namespaceリストア
 
 8. 関連コンポーネント
     1. PVC（Volumes）
