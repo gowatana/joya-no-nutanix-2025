@@ -17,12 +17,5 @@ NAME                                      READY   STATUS    RESTARTS   AGE
 ndk-controller-manager-754bcbf7d4-2jlhg   4/4     Running   0          2m10s
 ```
 
-NDKのStorageClusterとして、Nutanixクラスタ（Prism Element）を登録してあります。
-```
-$ kubectl get storageclusters.dataservices.nutanix.com
-NAME         AVAILABLE
-st-cluster   true
-```
-
 # 参考ドキュメント
 https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Data-Services-for-Kubernetes-v2_0:top-storageclusters-set-up-cli-k8s-t.html

@@ -10,6 +10,8 @@ Prism CentralおよびPrism ElementのUUIDは、PCVMおよびCVMで「ncli clust
 
 確認したUUIDを指定して、Prism Elementに対応するStorageClusterリソースを作成します。API（dataservices.nutanix.com）からわかるように、これはNDK独自のKubernetesカスタム リソースです。
 
+例：storage-cluster.yml
+
 ```
 ---
 apiVersion: dataservices.nutanix.com/v1alpha1
@@ -20,6 +22,20 @@ spec:
   managementServerUuid: 16222475-b017-4c43-XXXX-XXXXXXXXXXXX
   storageServerUuid: 00063c9a-1efe-0a33-XXXX-XXXXXXXXXXXX
 ```
+
+StorageClusterリソースは、kubectlでYAMLを適用して作成します。
+```
+$ kubectl apply -f storage-cluster.yml
+storagecluster.dataservices.nutanix.com/st-cluster created
+```
+
+StorageClusterを作成したら、AVAILALE: true になることを確認します。
+```
+$ kubectl get storageclusters.dataservices.nutanix.com
+NAME         AVAILABLE
+st-cluster   true
+```
+
 
 # 参考ドキュメント
 
